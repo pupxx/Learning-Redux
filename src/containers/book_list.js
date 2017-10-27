@@ -10,12 +10,10 @@ class BookList extends Component {
 
     }
 
-
-
     render() {
         return (
             <div>
-                {listOfBooks()}
+                {this.listOfBooks()}
             </div>
         )
     }
